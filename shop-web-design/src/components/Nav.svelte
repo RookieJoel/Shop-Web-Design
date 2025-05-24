@@ -1,5 +1,5 @@
 <nav>
-    <div class ="flex justify-between items-center bg-gray-400 p-4">
+    <div class ="flex justify-between items-center bg-gray-800 p-4">
         <div class="text-white text-2xl font-extrabold">
             <a href="/">ShopShap</a>    
         </div>
