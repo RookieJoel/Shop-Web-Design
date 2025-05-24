@@ -1,22 +1,25 @@
 <script lang="ts">
+  import { Card, Button, Rating, Badge } from "flowbite-svelte";
   export let ImgSrc: string;
   export let text: string;
 </script>
 
-<div class="grid grid-cols-4 gap-4 p-4 text-white">
-  <div class="bg-">
-    <img src={ImgSrc} alt="Image" class="w-full h-auto rounded" />
+<Card class="p-0">
+  <a href="/">
+    <img class="rounded-t-lg p-8" src={ImgSrc} />
+  </a>
+  <div class="px-5 pb-5">
+    <a href="/">
+      <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{text}</h5>
+    </a>
+    <Rating rating={4} size={24} class="mt-2.5 mb-5">
+      {#snippet text()}
+        <Badge class="ms-3">4</Badge>
+      {/snippet}
+    </Rating>
+    <div class="flex items-center justify-between">
+      <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+      <Button href="/">Buy now</Button>
+    </div>
   </div>
-
-  <div class="flex items-center">
-    <img src={ImgSrc} alt="Image" class="w-full h-auto rounded" />
-  </div>
-
-  <div class="flex items-center justify-center">
-    <img src={ImgSrc} alt="Image" class="w-full h-auto rounded" />
-  </div>
-
-  <div class="flex items-center justify-center">
-    <img src={ImgSrc} alt="Image" class="w-full h-auto rounded" />
-  </div>
-</div>
+</Card>

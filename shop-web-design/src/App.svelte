@@ -2,7 +2,6 @@
   import Header from "./components/Header.svelte";
   import Nav from "./components/Nav.svelte";
   import StatItem from "./components/StatItem.svelte";
-  import Card from "./components/Card.svelte";
   const stats = [
     { count: '1100+', label: 'Happy Customers' },
     { count: '800+', label: 'Projects Completed' },
@@ -45,10 +44,6 @@
  <h2 class="font-bold text-3xl">New Arrivals</h2>
 </div>
 
-<section>
-  <div>
-    <Card ImgSrc="https://placehold.co/25x25" text="this is my alter ego" />
-  </div>
-</section>
+
 
 
