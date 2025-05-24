@@ -1,9 +1,9 @@
 <nav>
     <div class ="flex justify-between items-center bg-gray-400 p-4">
         <div class="text-white text-2xl font-extrabold">
-            <a href="/">Shop</a>    
+            <a href="/">ShopShap</a>    
         </div>
-        <div class="flex space-x-4">
+        <div class="flex space-x-4 pl-2">
             <a href="/" class="text-white hover:text-gray-300">Home</a>
             <a href="/products" class="text-white hover:text-gray-300">Products</a>
             <a href="/about" class="text-white hover:text-gray-300">About</a>
