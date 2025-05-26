@@ -58,63 +58,37 @@
   </div>
 </section>
 
+<section>
+  <div class="container mx-auto">
+    <div class="bg-gray-200 text-center py-8 rounded-3xl">
+      <h2 class="text-3xl font-bold mb-4">Find Your Fit</h2>
+      <h3 class="text-xl mb-6 font-bold">Flaunt Your Style</h3>
+      <div class="grid grid-cols-4 grid-rows-2 gap-4 p-4">
+        <div class="bg-white col-span-2 p-6 rounded-lg shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">Casual Wear</h4>
+          <p class="text-gray-700">Comfort meets style with our casual collection.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg row-span-2">
+          <h4 class="text-xl font-semibold mb-2">Formal Wear</h4>
+          <p class="text-gray-700">Elevate your look with our elegant formal attire.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg row-span-2">
+          <h4 class="text-xl font-semibold mb-2">Sportswear</h4>
+          <p class="text-gray-700">Stay active and stylish with our sports collection.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">Accessories</h4>
+          <p class="text-gray-700">Complete your outfit with our trendy accessories.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">Footwear</h4>
+          <p class="text-gray-700">Step out in style with our fashionable footwear.</p>
+        </div>
 
-<div class="parent">
-    <div class="div1">1</div>
-    <div class="div2">2</div>
-    <div class="div3">3</div>
-    <div class="div4">4</div>
-    <div class="div5">5</div>
-    <div class="div6">6</div>
-</div>
-
+    </div>
+  </div>
+</section>
 
 <style>
-  .parent {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: repeat(5, 1fr);
-      gap: 8px;
-  }
   
-  .div1 {
-      grid-column: span 3 / span 3;
-      grid-row: span 3 / span 3;
-  }
-  
-  .div2 {
-      grid-column: span 2 / span 2;
-      grid-row: span 2 / span 2;
-      grid-column-start: 1;
-      grid-row-start: 4;
-  }
-  
-  .div3 {
-      grid-row: span 2 / span 2;
-      grid-column-start: 3;
-      grid-row-start: 4;
-  }
-  
-  .div4 {
-      grid-row: span 2 / span 2;
-      grid-column-start: 4;
-      grid-row-start: 4;
-  }
-  
-  .div5 {
-      grid-row: span 5 / span 5;
-      grid-column-start: 5;
-      grid-row-start: 1;
-  }
-  
-  .div6 {
-      grid-row: span 3 / span 3;
-      grid-column-start: 4;
-      grid-row-start: 1;
-  }
 </style>
-        
-
-
-
-
