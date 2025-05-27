@@ -130,5 +130,7 @@
 </section>
 
 
+<Footer />
+
 
 
