@@ -3,7 +3,7 @@
 
 
 .style-item {
-  @apply bg-white pt-4 pr-8 pb-8 pl-8
+  @apply relative bg-white pt-4 pr-8 pb-8 pl-8
          border border-[#e2e8f0]
          rounded-lg
          shadow-[0_2px_4px_rgba(0,0,0,0.1)]

@@ -3,10 +3,39 @@
   import Nav from "./components/Nav.svelte";
   import StatItem from "./components/StatItem.svelte";
   import Card from "./components/Card.svelte";
+  import Review from "./components/Review.svelte";  
+  import Footer from "./components/Footer.svelte";
   const stats = [
     { count: '1100+', label: 'Happy Customers' },
     { count: '800+', label: 'Projects Completed' },
     { count: '1000+', label: 'Positive Reviews' },
+  ];
+
+  const reviews = [
+    {
+      src: "https://placehold.co/100x100",
+      username: "John Doe",
+      text_header: "Amazing Service!",
+      review: "I had a fantastic experience shopping here. The quality of the clothes is top-notch and the customer service is exceptional."
+    },
+    {
+      src: "https://placehold.co/100x100",
+      username: "Jane Smith",
+      text_header: "Stylish and Affordable",
+      review: "I love the variety of styles available. I found exactly what I was looking for at a great price!"
+    },
+    {
+      src: "https://placehold.co/100x100",
+      username: "Alice Johnson",
+      text_header: "Highly Recommend",
+      review: "The shopping experience was seamless. Fast shipping and the clothes fit perfectly!"
+    },
+    {
+      src: "https://placehold.co/100x100",
+      username: "Bob Brown",
+      text_header: "Quality Products",
+      review: "I was impressed with the quality of the fabrics. Will definitely shop here again!"
+    }
   ];
 
 </script>
@@ -37,7 +66,7 @@
 
 
     <section class="mt-3 mr-3">
-      <img src="https://placehold.co/800x500" alt="Fashion preview" class="rounded-xl" />
+      <img src="https://placehold.co/600x500" alt="Fashion preview" class="rounded-xl" />
     </section>
   </div>
 </div>
@@ -63,7 +92,7 @@
     <div class="bg-gray-200 text-center py-8 rounded-3xl">
       <h2 class="text-3xl font-bold mb-4">Find Your Fit</h2>
       <h3 class="text-xl mb-6 font-bold">Flaunt Your Style</h3>
-      <div class="grid grid-cols-4 grid-rows-2 gap-4 p-3">
+      <div class="grid grid-cols-4 grid-rows-2 gap-4 p-3 text-left">
 
         <div class="style-item col-span-2 bg-[url('https://placehold.co/600x300')]">
           <h4 class="text-xl font-semibold mb-2">Casual Wear</h4>
@@ -86,8 +115,20 @@
           <h4 class="text-xl font-semibold mb-2">Footwear</h4>
           <img src="https://placehold.co/300x250" alt="Footwear" class="rounded-lg mt-2">
         </div>
-
     </div>
+</section>
+
+<section>
+  <div class="container mx-auto py-8">
+   <h2 class="text-4xl font-extrabold">Customers Reviews</h2>
+    <p class="text-lg mb-6">See what our customers are saying about us!</p>
+    <div class="grid grid-cols-2 gap-4">
+      {#each reviews as review}
+        <Review {...review} />
+      {/each}
   </div>
 </section>
+
+
+
 
