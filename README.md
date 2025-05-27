@@ -38,7 +38,7 @@ As someone passionate about both design and development, I wanted to challenge m
 Make sure you have **Node.js** installed.
 
 ```bash
-git clone https://github.com/your-username/shopshap.git
+git clone https://github.com/RookieJoel/Shop-Web-Design.git
 cd shopshap
 npm install
 npm run dev
