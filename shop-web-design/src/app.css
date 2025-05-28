@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "flowbite";
-
+@plugin "daisyui";
 
 .style-item {
   @apply relative bg-white pt-4 pr-8 pb-8 pl-8
