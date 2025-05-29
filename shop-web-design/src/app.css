@@ -3,13 +3,18 @@
 @plugin "daisyui";
 
 .style-item {
-  @apply relative bg-white pt-4 pr-8 pb-8 pl-8
+  @apply relative
+         bg-white pt-4 pr-8 pb-8 pl-8
          border border-[#e2e8f0]
          rounded-lg
          shadow-[0_2px_4px_rgba(0,0,0,0.1)]
-          bg-cover bg-center;
+         bg-cover bg-center h-64;
 }
 
+.style-item img {
+  @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover
+         rounded-lg;
+}
 .style-item:hover {
   @apply transform -translate-y-1
          transition ease-in-out duration-300
@@ -17,7 +22,11 @@
 }
 
 .style-item h4 {
-  @apply text-2xl mb-2 font-extrabold absolute bottom-0 left-0 right-0
+  @apply text-2xl font-extrabold absolute bottom-0 left-0 right-0
          text-center text-white bg-gradient-to-t from-black to-transparent
          p-4;
+}
+
+.tall {
+  @apply md:h-[530px] md:bg-cover md:bg-center;
 }

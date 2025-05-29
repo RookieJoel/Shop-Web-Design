@@ -1,3 +1,7 @@
+<script>
+  import src from "../assets/ShopShap_logo.png";
+ </script>
+
 <nav>
   <div class="flex justify-between items-center bg-gray-800 p-4">
     <div class="flex items-center space-x-2">
@@ -34,7 +38,7 @@
       <button class="md:hidden text-white focus:outline-none"> </button>
 
       <div class="text-white text-2xl font-extrabold md:text-center ml-5">
-        <a href="/">ShopShap</a>
+        <img {src} alt="Logo" class="h-10 inline-block mr-2" />ShopShap
       </div>
     </div>
 

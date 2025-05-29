@@ -17,7 +17,7 @@
     </a>
     <Rating {rating} {size} class="mt-2 mb-3">
       {#snippet text()}
-        <Badge class="ms-3">{rating}</Badge>
+        <Badge class="text-l font-semibold">{rating}</Badge>
       {/snippet}
     </Rating>
     <div class="flex items-center justify-between">

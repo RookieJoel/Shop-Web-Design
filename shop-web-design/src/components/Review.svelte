@@ -6,7 +6,7 @@
     export let review: string;
 </script>
 
-<Card size="xl" class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow">
+<Card size="xl" class="py-5 px-2 bg-white dark:bg-gray-800 rounded-lg shadow">
   <figure class="flex flex-col items-center text-center">
     <blockquote class="mb-4 text-gray-500 dark:text-gray-400">
       <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{text_header}</h3>
