@@ -7,7 +7,7 @@
   export let price:number;
 </script>
 
-<Card class="p-0">
+<Card class="p-0 m-2">
   <a href="/">
     <img class="rounded-t-lg p-4" src={ImgSrc}/>
   </a>

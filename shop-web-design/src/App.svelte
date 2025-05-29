@@ -51,7 +51,7 @@
       <p class="pt-5">
         Discover curated collections tailored to your personality, mood, and lifestyle. From everyday essentials to bold statement pieces, we've got everything you need to express yourself confidently.
       </p>
-      <a href="#" class="bg-blue-950 text-center text-white px-10 py-2.5 mt-5 rounded-full inline-block">
+      <a href="#" class="w-full md:w-auto bg-blue-950 text-center text-white px-10 py-2.5 mt-5 rounded-full inline-block">
         Shop Now
       </a>
       
@@ -75,7 +75,7 @@
  <h2 class="font-bold text-3xl">New Arrivals</h2>
 </div>
 
-<section class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+<section class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4 gap-4 p-4 justify-items-center ">
   <Card ImgSrc="https://placehold.co/350x300" text="Stylish Jacket" rating={4.5} size={24} price={49.99} />
   <Card ImgSrc="https://placehold.co/350x300" text="Casual Sneakers" rating={4.0} size={24} price={59.99} />
   <Card ImgSrc="https://placehold.co/350x300" text="Elegant Dress" rating={5.0} size={24} price={79.99} />
@@ -89,20 +89,20 @@
 
 <section>
   <div class="container mx-auto">
-    <div class="bg-gray-200 text-center py-8 rounded-3xl">
+    <div class="bg-gray-200 text-center py-8 p rounded-3xl">
       <h2 class="text-3xl font-bold mb-4">Find Your Fit</h2>
       <h3 class="text-xl mb-6 font-bold">Flaunt Your Style</h3>
-      <div class="grid grid-cols-4 grid-rows-2 gap-4 p-3 text-left">
+      <div class="grid grid-cols-1 md:grid-cols-4 grid-rows-5 md:grid-rows-2 gap-4 p-3 text-left">
 
-        <div class="style-item col-span-2 bg-[url('https://placehold.co/600x300')]">
+        <div class="style-item md:col-span-2 bg-[url('https://placehold.co/600x300')]">
           <h4 class="text-xl font-semibold mb-2">Casual Wear</h4>
         </div>
 
-        <div class="style-item row-span-2 bg-[url('https://placehold.co/300x600')]">
+        <div class="style-item md:row-span-2 bg-[url('https://placehold.co/300x600')]">
           <h4 class="text-xl font-semibold mb-2">Formal Wear</h4>
         </div>
 
-        <div class="style-item row-span-2 bg-[url('https://placehold.co/300x600')]">
+        <div class="style-item md:row-span-2 bg-[url('https://placehold.co/300x600')]">
           <h4 class="text-xl font-semibold mb-2">Sportswear</h4>
         </div>
         
@@ -115,20 +115,22 @@
           <h4 class="text-xl font-semibold mb-2">Footwear</h4>
           <img src="https://placehold.co/300x250" alt="Footwear" class="rounded-lg mt-2">
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <section>
   <div class="container mx-auto py-8">
-   <h2 class="text-4xl font-extrabold">Customers Reviews</h2>
-    <p class="text-lg mb-6">See what our customers are saying about us!</p>
-    <div class="grid grid-cols-2 gap-4">
+   <h2 class=" mx-2 md:text-4xl font-extrabold ">Customers Reviews</h2>
+    <p class="mx-2 md:text-lg mb-6">See what our customers are saying about us!</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {#each reviews as review}
         <Review {...review} />
       {/each}
+    </div>
   </div>
 </section>
-
 
 <Footer />
 

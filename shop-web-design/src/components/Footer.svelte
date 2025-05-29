@@ -1,17 +1,14 @@
 <section>
     <div class="p-4">
-        <div class="bg-gray-800 text-center w-full py-5 rounded-3xl flex items-center justify-between">
-        <h2 class=" p-5 text-4xl font-bold mb-2 text-white ml-10">Join Our Community Stay Connected</h2>
-        <from action="/subscribe" method="POST" class="flex justify-center">
-            <input type="email" name="email" placeholder="Enter your email" required class="px-4 py-2 rounded-l-lg w-64 focus:outline-none focus:ring-2 focus:ring-blue-500" />
-            <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-r-lg hover:bg-blue-700 transition duration-300 mr-20">Subscribe</button>
-        </from>
+        <div class="bg-gray-800 text-center w-full py-5 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-4">
+            <h2 class="p-5 text-2xl md:text-4xl font-bold mb-2 text-white md:ml-10">Join Our Community Stay Connected</h2>
+            <form action="/subscribe" method="POST" class="flex justify-center w-full md:w-auto px-2">
+                <input type="email" name="email" placeholder="Enter your email" required class="px-4 py-2 rounded-l-lg w-full md:w-64 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-r-lg hover:bg-blue-700 transition duration-300 md:mr-20">Subscribe</button>
+            </form>
         </div>
     </div>
 </section>
-
-
-
 <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
@@ -21,7 +18,7 @@
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ShopShap</span>
               </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-6">
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
