@@ -46,7 +46,7 @@
 <div class="w-full bg-neutral-300">
   <div class="container mx-auto flex flex-wrap items-center justify-between px-4 py-8">
     
-    <section class="mt-3 max-w-xl">
+    <section class="mt-3 max-w-xl ml-15">
       <h1 class="font-extrabold text-6xl">Find clothes that matches your style!</h1>
       <p class="pt-5">
         Discover curated collections tailored to your personality, mood, and lifestyle. From everyday essentials to bold statement pieces, we've got everything you need to express yourself confidently.
@@ -65,8 +65,8 @@
     </section>
 
 
-    <section class="mt-3 mr-3">
-      <img src="https://placehold.co/600x500" alt="Fashion preview" class="rounded-xl" />
+    <section class="mt-3 mr-3 justify-center">
+      <img src="/fashion_preview-removebg-preview.png" alt="Fashion preview" class="rounded-xl" />
     </section>
   </div>
 </div>
@@ -88,7 +88,7 @@
 </section>
 
 <section>
-  <div class="container mx-auto">
+  <div class="container">
     <div class="bg-gray-200 text-center py-8 p rounded-3xl">
       <h2 class="text-3xl font-bold mb-4">Find Your Fit</h2>
       <h3 class="text-xl mb-6 font-bold">Flaunt Your Style</h3>

@@ -33,7 +33,7 @@
 
       <button class="md:hidden text-white focus:outline-none"> </button>
 
-      <div class="text-white text-2xl font-extrabold md:text-center">
+      <div class="text-white text-2xl font-extrabold md:text-center ml-5">
         <a href="/">ShopShap</a>
       </div>
     </div>
