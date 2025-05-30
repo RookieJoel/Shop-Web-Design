@@ -13,28 +13,28 @@
 
   const reviews = [
     {
-      src: "https://placehold.co/100x100",
+      src: "/worker.png",
       username: "John Doe",
       text_header: "Amazing Service!",
       review:
         "I had a fantastic experience shopping here. The quality of the clothes is top-notch and the customer service is exceptional.",
     },
     {
-      src: "https://placehold.co/100x100",
+      src: "/fam.png",
       username: "Jane Smith",
       text_header: "Stylish and Affordable",
       review:
         "I love the variety of styles available. I found exactly what I was looking for at a great price!",
     },
     {
-      src: "https://placehold.co/100x100",
+      src: "/Alice.png",
       username: "Alice Johnson",
       text_header: "Highly Recommend",
       review:
         "The shopping experience was seamless. Fast shipping and the clothes fit perfectly!",
     },
     {
-      src: "https://placehold.co/100x100",
+      src: "/Bob.png",
       username: "Bob Brown",
       text_header: "Quality Products",
       review:

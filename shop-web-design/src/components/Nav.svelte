@@ -1,6 +1,6 @@
 <script>
   import src from "../assets/ShopShap_logo.png";
- </script>
+</script>
 
 <nav>
   <div class="flex justify-between items-center bg-gray-800 p-4">
@@ -37,8 +37,9 @@
 
       <button class="md:hidden text-white focus:outline-none"> </button>
 
-      <div class="text-white text-2xl font-extrabold md:text-center ml-5">
-        <img {src} alt="Logo" class="h-10 inline-block mr-2" />ShopShap
+     <div class="text-white text-2xl font-extrabold flex items-center space-x-2 ml-[-35px] sm:ml-[-35px] md:ml-10">
+        <img src={src} alt="ShopShap Logo" class="h-8 w-8" />
+        <span>ShopShap</span>
       </div>
     </div>
 
@@ -49,7 +50,7 @@
       <a href="/contact" class="text-white hover:text-gray-300">Contact</a>
     </div>
 
-    <div class="flex items-center space-x-4">
+    <div class="hidden sm:flex items-center space-x-4">
       <a href="/cart" class="text-white hover:text-gray-300">Cart</a>
       <a href="/login" class="text-white hover:text-gray-300">Login</a>
       <a href="/signup" class="text-white hover:text-gray-300">Sign Up</a>
