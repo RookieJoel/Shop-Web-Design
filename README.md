@@ -43,4 +43,18 @@ cd shopshap
 npm install
 npm run dev
 ```
+With docker 
+
+ake sure you have **Docker** installed.
+
+```bash
+# 1. Pull the image from Docker Hub
+docker pull rookiejoel/shopshap-web-design:shopshap
+
+# 2. Run it as a container
+docker run -d --name shopshap -p 5173:5173 rookiejoel/shopshap-web-design:shopshap
+
+# 3. Open in your browser
+#    http://localhost:5173
+```
 
