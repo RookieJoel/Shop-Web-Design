@@ -130,7 +130,7 @@
 </section>
 
 <section>
-  <div class="container">
+  <div>
     <div class="bg-gray-200 text-center py-8 p rounded-3xl">
       <h2 class="text-3xl font-bold mb-4">Find Your Fit</h2>
       <h3 class="text-xl mb-6 font-bold">Flaunt Your Style</h3>
@@ -161,7 +161,7 @@
 </section>
 
 <section>
-  <div class="container mx-auto py-8">
+  <div class="mx-auto py-8">
     <h2 class="md:text-4xl font-extrabold mx-15">Customers Reviews</h2>
     <p class="md:text-lg mb-6 mx-15">
       See what our customers are saying about us!
