@@ -43,9 +43,10 @@ cd shopshap
 npm install
 npm run dev
 ```
+
 With docker 
 
-ake sure you have **Docker** installed.
+make sure you have **Docker** installed.
 
 ```bash
 # 1. Pull the image from Docker Hub
